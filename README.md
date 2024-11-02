@@ -1,20 +1,30 @@
-Customer Segmentation with KMeans and BIRCH
-This project uses KMeans and BIRCH clustering to segment customers based on Annual Income and Spending Score. Clustering helps identify distinct groups, useful for targeted marketing and analysis.
+# Customer Segmentation with KMeans and BIRCH
 
-Installation
-Clone the repo
+This project uses KMeans and BIRCH clustering to segment customers based on `Annual Income` and `Spending Score`. Clustering helps identify distinct groups, useful for targeted marketing and analysis.
 
-Install dependencies:
+## Installation
 
-pip install -r requirements.txt
+1. Clone the repo:
+    ```bash
+    git clone <your-repo-url>
+    cd <your-repo-directory>
+    ```
 
-Dataset
-Ensure Customers.csv is in the project root with Annual Income (k$) and Spending Score (1-100) columns.
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Usage
-Run KMeans Clustering
+## Dataset
 
+Ensure `Customers.csv` is in the project root with `Annual Income (k$)` and `Spending Score (1-100)` columns.
+
+## Usage
+
+### Run KMeans Clustering
+```bash
 python kmeans_clustering.py
+
 Run BIRCH Clustering
 
 python birch_clustering.py
