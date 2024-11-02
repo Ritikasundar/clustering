@@ -6,8 +6,7 @@ This project uses KMeans and BIRCH clustering to segment customers based on `Ann
 
 1. Clone the repo:
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-directory>
+    git clone https://github.com/Ritikasundar/clustering.git
     ```
 
 2. Install dependencies:
@@ -24,20 +23,35 @@ Ensure `Customers.csv` is in the project root with `Annual Income (k$)` and `Spe
 ### Run KMeans Clustering
 ```bash
 python kmeans_clustering.py
+```
 
-Run BIRCH Clustering
-
+### Run BIRCH Clustering
+```bash
 python birch_clustering.py
-Results
-Outputs include:
+```
 
-Cluster centers, labels, and inertia across epochs.
-2D and 3D cluster visualizations.
-Silhouette scores for cluster quality.
-Dependencies
-pandas, numpy, matplotlib, sklearn
-Visualizations
+## Results
+
+**Outputs include:**
+
+* Cluster centers, labels, and inertia across epochs.
+* 2D and 3D cluster visualizations.
+* Silhouette scores for cluster quality.
+
+## Dependencies
+
+**Dependencies:**
+
+* `pandas`
+* `numpy`
+* `matplotlib`
+* `sklearn`
+
+## Visualizations
+
+**Visualizations:**
+
 Images saved as:
 
-initial_kmeans_clusters.png and final_kmeans_clusters.png (KMeans)
-birch_clusters_2d.png and birch_clusters_3d.png (BIRCH)
+* `initial_kmeans_clusters.png` and `final_kmeans_clusters.png` (KMeans)
+* `birch_clusters_2d.png` and `birch_clusters_3d.png` (BIRCH)
